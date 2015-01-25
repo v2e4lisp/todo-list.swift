@@ -18,7 +18,7 @@ class TodoItem {
         self.completed = false
     }
     
-    func toggole() {
+    func toggle() {
         self.completed = !self.completed
     }
     

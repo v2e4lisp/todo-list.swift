@@ -73,7 +73,7 @@ class TodoListViewController: UITableViewController {
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         // toggle
-        todoItems[indexPath.row].toggole()
+        todoItems[indexPath.row].toggle()
         
         // reload
         tableView.reloadRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.None)
